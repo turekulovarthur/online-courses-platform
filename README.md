@@ -9,10 +9,12 @@
 Создать учебную платформу для учеников, студентов а так же и для преподователей кто хочет поделиться своими знаниями.
 
 ## Стек технологий 
-Frontend: React (Vite), TailwindCSS
+Frontend: React (Vite)
 Backend: Node.js (express)
 База данных: MongoDB (No SQL)
 Аутентификация: JWT 
+Доп.библиотеки: 
+    frontend: react-router-dom, axios, lucide-react, clsx 
 
 ## Основные функции
 - Регистрация и вход (JWT авторизация)  
