@@ -1,12 +1,13 @@
-import { BrowserRouter } from "react-router-dom"
+import { BrowserRouter, Route } from "react-router-dom"
 import { AppRoutes } from "./AppRoutes"
-import { Header } from './layout/Header'
+import Layout from "./layout/Layout"
 
 export default function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <AppRoutes />
+        <Route element={ <Layout /> }> 
+            <AppRoutes/>
+        </Route>
     </BrowserRouter>
   )
 }
