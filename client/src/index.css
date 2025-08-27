@@ -8,7 +8,7 @@
 
 body {
     font-family: "Inter", sans-serif;
-    background-color: var(--background-pages-color);
+    /* background-color: var(--background-pages-color); */
 }
 
 :root {
@@ -16,3 +16,4 @@ body {
     --primary-yellow: #FFCF2D;
     --primary-blue: #00235C;
 }
+
