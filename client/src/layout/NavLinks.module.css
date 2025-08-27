@@ -1,0 +1,10 @@
+.navList {
+    display: flex;
+    list-style-type: none;
+    gap: 4.5rem;
+}
+
+.navList li a {
+    color: black;
+    text-decoration: none;
+}
