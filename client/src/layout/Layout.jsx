@@ -7,7 +7,7 @@ import styles from "./Layout.module.css"
 const Layout = () => {
     return (
         <>  
-            <Header className={styles.container} />
+            <Header />
 
             <main className={styles.container}>
                 <Outlet />
