@@ -1,0 +1,15 @@
+.hero {
+    display: flex;
+    margin-top: 6rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_text {
+    width: 32rem;
+}
+
+.hero img {
+    max-width: 100%;
+    object-fit: cover;
+}
