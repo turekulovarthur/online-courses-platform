@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 
 import Layout from './layout/Layout'
 
-import { Home } from './pages/Home'
+import { Home } from './pages/home/Home'
 import { Favorites } from './pages/Favorites'
 import { Courses } from './pages/Courses'
 

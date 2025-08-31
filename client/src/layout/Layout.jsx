@@ -1,4 +1,4 @@
-import { Header } from "./Header"
+import { Header } from "./Header/Header.jsx"
 import { Outlet } from "react-router-dom"
 // место для импорта footer\
 
